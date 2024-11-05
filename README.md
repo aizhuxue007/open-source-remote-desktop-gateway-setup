@@ -16,7 +16,7 @@ Use Apache Guacamole to create a remote desktop access server, with Apache Tomca
    - **Internet Access**: Required
    - **Permissions**: Must have `sudo` privileges
    - **Environment**: SSH into your server for easy copying and pasting commands
-   ![prerequisites](https://github.com/aizhuxue007/open-source-remote-desktop-gateway-setup/proj3-1.png)
+   ![prerequisites](https://github.com/aizhuxue007/open-source-remote-desktop-gateway-setup/blob/main/proj3-1.png)
 
 ### 2. Update and Install Dependencies
 
@@ -37,7 +37,7 @@ Use Apache Guacamole to create a remote desktop access server, with Apache Tomca
          libssh2-1-dev libtelnet-dev libvncserver-dev libpulse-dev libssl-dev libvorbis-dev \
          libwebp-dev
      ```
-![downloading dependencies](https://github.com/aizhuxue007/open-source-remote-desktop-gateway-setup/proj3-2.png)
+![downloading dependencies](https://github.com/aizhuxue007/open-source-remote-desktop-gateway-setup/blob/main/proj3-2.png)
 ---
 
 ### 3. Set Up Tomcat
@@ -59,7 +59,7 @@ Use Apache Guacamole to create a remote desktop access server, with Apache Tomca
      ```bash
      /opt/tomcat/bin/startup.sh
      ```
-![tomcat setup](https://github.com/aizhuxue007/open-source-remote-desktop-gateway-setup/proj3-3.png)
+![tomcat setup](https://github.com/aizhuxue007/open-source-remote-desktop-gateway-setup/blob/main/proj3-3.png)
 ---
 
 ### 4. Install Guacamole and Initialize Server
@@ -91,7 +91,7 @@ Use Apache Guacamole to create a remote desktop access server, with Apache Tomca
      sudo systemctl enable guacd
      sudo systemctl start guacd
      ```
-![setup guac server](https://github.com/aizhuxue007/open-source-remote-desktop-gateway-setup/proj3-4.png)
+![setup guac server](https://github.com/aizhuxue007/open-source-remote-desktop-gateway-setup/blob/main/proj3-4.png)
 ---
 
 ### 5. Set Up Guacamole Web Application
@@ -105,7 +105,7 @@ Use Apache Guacamole to create a remote desktop access server, with Apache Tomca
      ```bash
      sudo mv guacamole.war /opt/tomcat/webapps/
      ```
-![guac web app setup](https://github.com/aizhuxue007/open-source-remote-desktop-gateway-setup/proj3-5.png)
+![guac web app setup](https://github.com/aizhuxue007/open-source-remote-desktop-gateway-setup/blob/main/proj3-5.png)
 ---
 
 ### 6. Configure Guacamole Properties
@@ -148,7 +148,7 @@ Use Apache Guacamole to create a remote desktop access server, with Apache Tomca
        - **Password**: `guacadmin`
 
      _(Be sure to change the default password for security purposes.)_
-![show login page](https://github.com/aizhuxue007/open-source-remote-desktop-gateway-setup/proj3-6.png)
+![show login page](https://github.com/aizhuxue007/open-source-remote-desktop-gateway-setup/blob/main/proj3-6.png)
 ---
 
 Congratulations! You should now see the Guacamole login screen and be able to access the remote desktop gateway.
